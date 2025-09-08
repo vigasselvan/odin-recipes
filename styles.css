@@ -4,7 +4,7 @@ html, body{
 }
 
 #title_bar {
-    background-color: rgb(255, 215, 0);
+    background-color: gold;
     overflow: hidden;
     height: 90px;
 }
@@ -82,7 +82,7 @@ li a:hover{
 #menu li a{
     font-family: serif;
     font-size: 1.2em;
-    color: gold;
+    color: goldenrod;
 }
 
 #menu li a:hover{
@@ -99,4 +99,84 @@ li a:hover{
     justify-content: space-between; /* h1 left, image right */
     align-items: flex-start;       /* align tops together */
     padding: 80px;
+    padding-bottom: 0; 
 }
+
+#ingredients{
+    font-size: 20px;
+    margin: 50px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+#ingredients ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+}
+
+#ingredients ul li{
+    margin: 10px;
+    color: grey;
+    font-weight:200 ;
+}
+
+#ingredients ul #ingredientsHeading{
+    margin-bottom: 40px;
+    font-weight: 900;
+    color: goldenrod;
+}
+
+#stepsSec{
+    background-color: lightgoldenrodyellow;
+    padding: 20px 80px;
+    margin: 30px 120px 30px 80px;
+}
+
+#stepsHeading{
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: grey;
+}
+
+#stepsSec ol{
+    padding-inline-start: 20px;
+}
+
+#stepsSec ol li{
+    font-family: sans-serif;
+    font-weight: 200;
+    padding: 5px;
+    color: goldenrod;
+}
+
+#stepsSec ol li::marker{
+    color:grey;
+    font-weight: 100;
+}
+
+#suggSec{
+    background-color: lightgoldenrodyellow;
+    padding: 20px 80px;
+    margin: 50px 120px 0px 80px;
+}
+
+#suggSec ul{
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+
+#suggSec #stepsHeading{
+    margin-bottom: 15px;
+}
+
+#suggSec ul li{
+    font-family: sans-serif;
+    font-weight: 200;
+    padding: 4px;
+    color: goldenrod;
+}
+
