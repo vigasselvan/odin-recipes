@@ -25,6 +25,11 @@ html, body{
     font-family: sans-serif;
 }
 
+#header a:hover{
+    font-size: 1em;
+    opacity: 50%;
+}  
+
 #header{
     font-size: 1.5em;
     font-weight: bold;
@@ -82,4 +87,16 @@ li a:hover{
 
 #menu li a:hover{
     font-size: 1.5em;
+}
+
+
+/* bread_omelette page */
+
+#name{
+    font-size: 3.9em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between; /* h1 left, image right */
+    align-items: flex-start;       /* align tops together */
+    padding: 80px;
 }
